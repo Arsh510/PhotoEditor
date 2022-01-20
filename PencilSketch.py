@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread('img2.jpg') 
+image = cv2.imread('img2.jpg') #image path
 
 grey_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 invert = cv2.bitwise_not(grey_img) 
